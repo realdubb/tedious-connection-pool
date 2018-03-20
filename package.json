@@ -1,5 +1,5 @@
 {
-  "name": "tedious-connection-pool",
+  "name": "@realdubb/tedious-connection-pool",
   "version": "1.0.6",
   "description": "Connection Pool for tedious.",
   "main": "lib/connection-pool.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tediousjs/tedious-connection-pool.git"
+    "url": "git://github.com/realdubb/tedious-connection-pool.git"
   },
   "keywords": [
     "tedious",
@@ -16,8 +16,8 @@
     "pool"
   ],
   "author": {
-    "name": "Ben Page",
-    "email": "ben.page@openreign.com"
+    "name": "Alex Wachira",
+    "email": "npm@alexwachira.com"
   },
   "contributors": [
     {
@@ -39,7 +39,7 @@
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/tediousjs/tedious-connection-pool/issues"
+    "url": "https://github.com/realdubb/tedious-connection-pool/issues"
   },
-  "homepage": "https://github.com/tediousjs/tedious-connection-pool"
+  "homepage": "https://github.com/realdubb/tedious-connection-pool"
 }

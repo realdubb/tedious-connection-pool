@@ -1,14 +1,11 @@
-# tedious-connection-pool
-[![Dependency Status](https://david-dm.org/tediousjs/tedious-connection-pool.svg)](https://david-dm.org/tediousjs/tedious-connection-pool)
-[![npm version](https://badge.fury.io/js/tedious-connection-pool.svg)](https://badge.fury.io/js/tedious-connection-pool)
-[![Build status](https://ci.appveyor.com/api/projects/status/jnurb48ao1wrbgbr?svg=true)](https://ci.appveyor.com/project/ben-page/tedious-connection-pool)
-
-
 A connection pool for [tedious](http://github.com/tediousjs/tedious).
+
+Fork of [tedious-connection-pool](https://www.npmjs.com/package/tedious-connection-pool)
+with updated tedious version.
 
 ## Installation
 
-    npm install tedious-connection-pool
+    npm install @realdubb/tedious-connection-pool
     
 ## Description
 The only difference from the regular tedious API is how the connection is obtained and released. Rather than creating a connection and then closing it when finished, acquire a connection from the pool and release it when finished. Releasing resets the connection and makes in available for another use.
